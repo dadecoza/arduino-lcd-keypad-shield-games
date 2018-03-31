@@ -1,4 +1,34 @@
-## 1. Number Flip-Flop
+Most of these games were modified to work with the Keypad Shield. The links to the original projects are included below.
+
+
+## 1. Hangman
+* Author: Dan Wagoner
+* URL: [http://www.nerdybynature.com/2009/08/31/hangmanduino/](http://www.nerdybynature.com/2009/08/31/hangmanduino/)
+* Youtube: [https://www.youtube.com/watch?v=hCa8F8fbHLQ](https://www.youtube.com/watch?v=hCa8F8fbHLQ)
+
+### Description
+Classic Hangman.
+
+
+## 2. Helicopter
+* Author: Kevin Loney
+* URL: [https://makezine.com/2013/03/11/arduino-helicopter-game-2/](https://makezine.com/2013/03/11/arduino-helicopter-game-2/)
+* Youtube: [https://www.youtube.com/watch?v=Lmb0OcObO5A](https://www.youtube.com/watch?v=Lmb0OcObO5A)
+
+
+## 3. Hunt The Wumpus
+* Author: @dmalec
+* URL: [https://github.com/dmalec/Hunt-The-Wumpus](https://github.com/dmalec/Hunt-The-Wumpus)
+* Youtube:
+
+
+## 4. Jump
+* Author: Joshua Brooks
+* URL: [http://www.instructables.com/id/Arduino-LCD-Game/](http://www.instructables.com/id/Arduino-LCD-Game/)
+* Youtube:[https://www.youtube.com/watch?v=LVPSwgAacac](https://www.youtube.com/watch?v=LVPSwgAacac)
+
+
+## 5. Number Flip-Flop
 
 * Author: Budd Churchward (@barnacleBudd)
 * URL: [http://mypetdigispark.blogspot.co.za/2013/02/lcd-game-set-up-number-flip-flop-intro.html](http://mypetdigispark.blogspot.co.za/2013/02/lcd-game-set-up-number-flip-flop-intro.html)
@@ -10,3 +40,52 @@ Look at the number in the photo. It might not be obvious at first, but notice th
 The object of the game is to put the numbers into proper order. You do that by flipping the order for the left hand side of the string. Watch how we might do this.
 In the text below, I will highlight the digits that I want to flip. You will see that their order will be reversed in the next iteration.
 ![Numbers](images/numbers.png?raw=true "Numbers")
+
+
+## 6. Pac-Man
+* Author: Jean Malha
+* URL: [http://forum.snootlab.com/viewtopic.php?f=34&t=207](http://forum.snootlab.com/viewtopic.php?f=34&t=207)
+* Youtube: 
+
+
+## 7. Poseur Blocks
+* Author: Alex Zen (@alexzen)
+* URL: [https://github.com/alzkun/poseur-blocks](https://github.com/alzkun/poseur-blocks)
+* Youtube: [https://www.youtube.com/watch?v=tZByxIPXiag](https://www.youtube.com/watch?v=tZByxIPXiag)
+
+
+## 8. Snake
+* Author: @boti12bot
+* URL: [https://www.youtube.com/watch?v=IkTK6WMlMs4](https://www.youtube.com/watch?v=IkTK6WMlMs4)
+* Youtube: [https://www.youtube.com/watch?v=IkTK6WMlMs4](https://www.youtube.com/watch?v=IkTK6WMlMs4)
+
+
+## 9. Tetris
+* Author: @Numeric
+* URL: [https://hackaday.io/project/10761-tetris-on-arduino-lcd](https://hackaday.io/project/10761-tetris-on-arduino-lcd)
+* Youtube: [https://www.youtube.com/watch?v=YTdxdu47js0](https://www.youtube.com/watch?v=YTdxdu47js0)
+
+
+## 10. The Lonely Cottage
+* Author: Wayne Jones (@WarmCat)
+* URL: [http://www.instructables.com/id/Text-Based-Multi-Choice-Adventure-Game/](http://www.instructables.com/id/Text-Based-Multi-Choice-Adventure-Game/)
+* Youtube: [https://www.youtube.com/watch?v=H70bLuWkbx4](https://www.youtube.com/watch?v=H70bLuWkbx4)
+
+
+## 11. Tromino
+* Author: Johannes le Roux (@dadecoza)
+* URL: 
+* Youtube: [https://youtu.be/O69huEK0YT4?t=448](https://youtu.be/O69huEK0YT4?t=448)
+
+
+## 12. Truck Lane
+* Author: @TheRealDod
+* URL: [http://www.instructables.com/id/Truck-Lane-a-16x2-LCD-Arduino-game/](http://www.instructables.com/id/Truck-Lane-a-16x2-LCD-Arduino-game/)
+* Youtube: [https://www.youtube.com/watch?v=N4ZchEWr8_s](https://www.youtube.com/watch?v=N4ZchEWr8_s)
+
+
+## 13. Zombie
+* Author:  Markus Ulfberg
+* URL:  [http://genericnerd.blogspot.co.za/2010/01/arduino-game-zombie-showdown.html](http://genericnerd.blogspot.co.za/2010/01/arduino-game-zombie-showdown.html)
+* Youtube: [https://www.youtube.com/watch?v=bYbsQDPGdj8](https://www.youtube.com/watch?v=bYbsQDPGdj8)
+
