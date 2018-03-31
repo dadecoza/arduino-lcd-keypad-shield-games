@@ -1,13 +1,10 @@
-Most of these games were modified to work with the Keypad Shield. The links to the original projects are included below.
+Most of these games were modified to work with the LCD Keypad Shield. The links to the original projects are included below.
 
 
 ## 1. Hangman
 * Author: Dan Wagoner
 * URL: [http://www.nerdybynature.com/2009/08/31/hangmanduino/](http://www.nerdybynature.com/2009/08/31/hangmanduino/)
 * Youtube: [https://www.youtube.com/watch?v=hCa8F8fbHLQ](https://www.youtube.com/watch?v=hCa8F8fbHLQ)
-
-### Description
-Classic Hangman.
 
 
 ## 2. Helicopter
@@ -29,12 +26,11 @@ Classic Hangman.
 
 
 ## 5. Number Flip-Flop
-
 * Author: Budd Churchward (@barnacleBudd)
 * URL: [http://mypetdigispark.blogspot.co.za/2013/02/lcd-game-set-up-number-flip-flop-intro.html](http://mypetdigispark.blogspot.co.za/2013/02/lcd-game-set-up-number-flip-flop-intro.html)
 * Youtube: [https://www.youtube.com/watch?v=SqxVIVnzkR0](https://www.youtube.com/watch?v=SqxVIVnzkR0)
 
-### Description
+### How to play
 ![Number Flip-Flop](images/REV01.png?raw=true "Number Flip-Flop")
 Look at the number in the photo. It might not be obvious at first, but notice that we have a string of all ten digits from 0 to 9 in a scrambled order.
 The object of the game is to put the numbers into proper order. You do that by flipping the order for the left hand side of the string. Watch how we might do this.
