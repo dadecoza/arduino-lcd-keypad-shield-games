@@ -19,7 +19,7 @@ Most of these games were modified to work with the LCD Keypad Shield. The links 
 * Youtube: [https://www.youtube.com/watch?v=Lmb0OcObO5A](https://www.youtube.com/watch?v=Lmb0OcObO5A)
 
 
-## 4. [Hunt The Wumpus](sketches/Hunt_The_Wumpus/)
+## 4. [Hunt The Wumpus](sketches/HuntTheWumpus/)
 * Author: @dmalec
 * URL: [https://github.com/dmalec/Hunt-The-Wumpus](https://github.com/dmalec/Hunt-The-Wumpus)
 * Youtube:
