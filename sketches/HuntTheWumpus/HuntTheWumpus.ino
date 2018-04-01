@@ -42,7 +42,7 @@
 //#include <Adafruit_RGBLCDShield.h>
 //#include <utility/Adafruit_MCP23017.h>
 #include <LiquidCrystal.h>
-#include "Hunt_The_Wumpus.h"
+#include "HuntTheWumpus.h"
 
 #define BUTTON_UP 0x08
 #define BUTTON_DOWN 0x04
