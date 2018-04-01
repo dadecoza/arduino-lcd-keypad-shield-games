@@ -1,5 +1,10 @@
-Most of these games were modified to work with the LCD Keypad Shield. The links to the original projects are included below.
+# Collection of games for the Arduino LCD Keypad Shield
 
+
+![Hangmanduino](images/hangman.jpg?raw=true "Hangmanduino")
+
+
+Most of these games were modified to work with the LCD Keypad Shield. The links to the original projects are included below.
 
 ## 1. [Arduinoid](sketches/Arduinoid/)
 * Author: Mason (@profmason)
