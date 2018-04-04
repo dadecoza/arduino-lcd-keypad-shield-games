@@ -17,6 +17,8 @@ static const int stateIntro = 0;
 static const int statePlay = 1;
 static const int stateGameover = 2;
 static const int highScoreAddress = 0;
+static const int top = 0;
+static const int bottom = 1;
 
 struct sprite {
   int x;
@@ -41,6 +43,7 @@ static const byte spriteBitmaps[8][8] = {
   {0x1F, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}
 };
 
+
 void setup() {
   if (checkButton()) {
     EEPROM.write(highScoreAddress, 0);
@@ -56,22 +59,23 @@ void setup() {
   initVars();
 }
 
+
 void dumpSprites() {
   Serial.print("Pacman X:");
   Serial.print(pacmanX);
   Serial.print(" Pacman Y:");
   Serial.println(pacmanY);
   for (int i = 0; i < maxSprites; i++) {
-      Serial.print(i);
-      Serial.print(" --> x:");
-      Serial.print(sprites[i].x);
-      Serial.print(" y:");
-      Serial.print(sprites[i].y);
-      Serial.print(" type:");
-      Serial.println(sprites[i].type);
+    Serial.print(i);
+    Serial.print(" --> x:");
+    Serial.print(sprites[i].x);
+    Serial.print(" y:");
+    Serial.print(sprites[i].y);
+    Serial.print(" type:");
+    Serial.println(sprites[i].type);
   }
-  delay(30000);
 }
+
 
 void loop() {
   switch (state) {
@@ -80,6 +84,7 @@ void loop() {
     case stateGameover: gameover(); break;
   }
 }
+
 
 void initVars() {
   for (int i = 0; i < maxSprites; i++) sprites[i] = {0, 0, typeNone};
@@ -94,6 +99,7 @@ void initVars() {
   pacmanY = 0;
   mouthState = false;
 }
+
 
 void intro() {
   lcd.clear(); lcd.setCursor(3, 0); lcd.print("WELCOME TO"); lcd.setCursor(1, 1); lcd.print("MICKY'S ARCADE");
@@ -111,6 +117,7 @@ void intro() {
   animation(1);
   state = statePlay;
 }
+
 
 void play() {
   long now = millis();
@@ -142,8 +149,9 @@ void play() {
       score++;
       if (!(score % 10)) {
         gameSpeed = gameSpeed - 50;
-      } else if (!(score % 5)&&(ghostOdds > 0)) {
-        ghostOdds--;
+        if (ghostOdds > 1) {
+          ghostOdds--;
+        }
       }
       eatHeart(pacmanX, pacmanY);
     } else if (collision == typeGhost) {
@@ -177,25 +185,35 @@ void gameover() {
 
 
 void spawn(int type) {
+  int x = 15;
+  int topLast = at(x, top);
+  int bottomLast = at(x, bottom);
   for (int i = 0; i < maxSprites; i++) {
     if (sprites[i].type == typeNone) {
-      int x = 16;
-      int y;
-      if ((type == typeGhost) && (at(x-1, 1) == typeGhost)) {
-        y = 1;
-      } else if ((type == typeGhost) && (at(x-1, 0) == typeGhost)) {
-        y = 0;
-      } else if (at(x, 1) != typeNone) {
-        y = 0;
-      } else if (at(x, 0) != typeNone) {
-        y = 1;
-      } else {
+      int y = -1;
+      if ((topLast == typeNone) && (bottomLast != typeNone)) {
+        y = top;
+      } else if ((topLast != typeNone) && (bottomLast == typeNone)) {
+        y = bottom;
+      } else if ((topLast == typeNone) && (bottomLast == typeNone)) {
         y = random(0, 2);
       }
-      sprites[i].type = type;
-      sprites[i].x = x;
-      sprites[i].y = y;
-      return;
+
+      if ((y >= 0) && (type == typeGhost)) {
+        if (okayToSpawnGhost(y)) {
+        } else if (okayToSpawnGhost(!y)) {
+          y = !y;
+        } else {
+          y = -1;
+        }
+      }
+
+      if (y >= 0) {
+        sprites[i].type = type;
+        sprites[i].x = x;
+        sprites[i].y = y;
+        return;
+      }
     }
   }
 }
@@ -211,11 +229,15 @@ int at(int x, int y) {
 }
 
 
-int okayToSpawnGhost() {
-  for (int i = 14; i < 16; i++) {
-    if ((at(i, 0) == typeGhost) || (at(i, 1) == typeGhost)) {
-      return 0;
-    }
+int okayToSpawnGhost(int pos) {
+  if (at(15, pos) != typeNone) {
+    return 0;
+  } else if (at(15, !pos) == typeGhost) {
+    return 0;
+  } else if ((pos == top) && (at(14, bottom) == typeGhost)) {
+    return 0;
+  } else if ((pos == bottom) && (at(14, top) == typeGhost)) {
+    return 0;
   }
   return 1;
 }
@@ -237,7 +259,7 @@ void moveLeft() {
       lcd.setCursor(sprites[i].x, sprites[i].y);
       lcd.write(byte(32));
       if (sprites[i].x > 0) {
-        lcd.setCursor(--sprites[i].x, sprites[i].y);
+        lcd.setCursor(sprites[i].x--, sprites[i].y);
         switch (sprites[i].type) {
           case typeGhost:
             lcd.write(byte(spriteGhost));
