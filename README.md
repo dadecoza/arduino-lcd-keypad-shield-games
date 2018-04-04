@@ -55,49 +55,55 @@ In the text below, I will highlight the digits that I want to flip. You will see
 * Youtube: 
 
 
-## 8. [Poseur Blocks](sketches/PoseurBlocks/)
+## 8. [PACMAN RIDER!](sketches/PacmanRider/)
+* Author: Micky Griffiths
+* URL:
+* Youtube: [https://www.youtube.com/watch?v=JapKr4s1tVY](https://www.youtube.com/watch?v=JapKr4s1tVY)
+
+
+## 9. [Poseur Blocks](sketches/PoseurBlocks/)
 * Author: Alex Zen (@alexzen)
 * URL: [https://github.com/alzkun/poseur-blocks](https://github.com/alzkun/poseur-blocks)
 * Youtube: [https://www.youtube.com/watch?v=tZByxIPXiag](https://www.youtube.com/watch?v=tZByxIPXiag)
 
 
-## 9. [Snake](sketches/Snake/) 
+## 10. [Snake](sketches/Snake/) 
 * Author: @boti12bot
 * URL: [https://www.youtube.com/watch?v=IkTK6WMlMs4](https://www.youtube.com/watch?v=IkTK6WMlMs4)
 * Youtube: [https://www.youtube.com/watch?v=IkTK6WMlMs4](https://www.youtube.com/watch?v=IkTK6WMlMs4)
 
 
-## 10. [Tetris](sketches/Tetris/)
+## 11. [Tetris](sketches/Tetris/)
 * Author: @Numeric
 * URL: [https://hackaday.io/project/10761-tetris-on-arduino-lcd](https://hackaday.io/project/10761-tetris-on-arduino-lcd)
 * Youtube: [https://www.youtube.com/watch?v=YTdxdu47js0](https://www.youtube.com/watch?v=YTdxdu47js0)
 
 
-## 11. [The Lonely Cottage](sketches/Cottage/)
+## 12. [The Lonely Cottage](sketches/Cottage/)
 * Author: Wayne Jones (@WarmCat)
 * URL: [http://www.instructables.com/id/Text-Based-Multi-Choice-Adventure-Game/](http://www.instructables.com/id/Text-Based-Multi-Choice-Adventure-Game/)
 * Youtube: [https://www.youtube.com/watch?v=H70bLuWkbx4](https://www.youtube.com/watch?v=H70bLuWkbx4)
 
 
-## 12. [Tromino](sketches/Tromino/)
+## 13. [Tromino](sketches/Tromino/)
 * Author: Johannes le Roux (@dadecoza)
 * URL: 
 * Youtube: [https://youtu.be/O69huEK0YT4?t=448](https://youtu.be/O69huEK0YT4)
 
 
-## 13. [Truck Lane](sketches/TruckLane/)
+## 14. [Truck Lane](sketches/TruckLane/)
 * Author: @TheRealDod
 * URL: [http://www.instructables.com/id/Truck-Lane-a-16x2-LCD-Arduino-game/](http://www.instructables.com/id/Truck-Lane-a-16x2-LCD-Arduino-game/)
 * Youtube: [https://www.youtube.com/watch?v=N4ZchEWr8_s](https://www.youtube.com/watch?v=N4ZchEWr8_s)
 
 
-## 14. [Vroum!](sketches/Vroum/)
+## 15. [Vroum!](sketches/Vroum/)
 * Author: Pierre Massat
 * URL:  [https://guitarextended.wordpress.com/2013/01/19/sketch-of-the-arduino-lcd-video-game-voitures/](https://guitarextended.wordpress.com/2013/01/19/sketch-of-the-arduino-lcd-video-game-voitures/)
 * Youtube: [https://www.youtube.com/watch?v=-sYp-wQ_Rtg](https://www.youtube.com/watch?v=-sYp-wQ_Rtg)
 
 
-## 15. [Zombie](sketches/Zombie/)
+## 16. [Zombie](sketches/Zombie/)
 * Author:  Markus Ulfberg
 * URL:  [http://genericnerd.blogspot.co.za/2010/01/arduino-game-zombie-showdown.html](http://genericnerd.blogspot.co.za/2010/01/arduino-game-zombie-showdown.html)
 * Youtube: [https://www.youtube.com/watch?v=bYbsQDPGdj8](https://www.youtube.com/watch?v=bYbsQDPGdj8)
