@@ -4,7 +4,12 @@
 ![Hangmanduino](images/hangman.jpg?raw=true "Hangmanduino")
 
 
-Most of these games were modified to work with the LCD Keypad Shield. The links to the original projects are included below.
+Most of these games were modified to work with the LCD Keypad Shield.
+
+You will find the code in the [sketches](/sketches/) directory.
+
+The links to the original projects are included below.
+
 
 ## 1. [Arduinoid](sketches/Arduinoid/)
 * Author: Mason (@profmason)
@@ -12,31 +17,36 @@ Most of these games were modified to work with the LCD Keypad Shield. The links 
 * Youtube: [https://www.youtube.com/watch?v=mam9-iFeFJk](https://www.youtube.com/watch?v=mam9-iFeFJk)
 
 
-## 2. [Hangmanduino](sketches/Hangman/)
+## 2. [DinosaurGame](sketches/DinosaurGame/)
+* Author: Erbol Syzdyk
+* URL:
+* Youtube: [https://www.youtube.com/watch?v=pR_U7vryuJY](https://www.youtube.com/watch?v=pR_U7vryuJY)
+
+## 3. [Hangmanduino](sketches/Hangman/)
 * Author: Dan Wagoner
 * URL: [http://www.nerdybynature.com/2009/08/31/hangmanduino/](http://www.nerdybynature.com/2009/08/31/hangmanduino/)
 * Youtube: [https://www.youtube.com/watch?v=hCa8F8fbHLQ](https://www.youtube.com/watch?v=hCa8F8fbHLQ)
 
 
-## 3. [Helicopter](sketches/Helecopter/)
+## 4. [Helicopter](sketches/Helecopter/)
 * Author: Kevin Loney
 * URL: [https://makezine.com/2013/03/11/arduino-helicopter-game-2/](https://makezine.com/2013/03/11/arduino-helicopter-game-2/)
 * Youtube: [https://www.youtube.com/watch?v=Lmb0OcObO5A](https://www.youtube.com/watch?v=Lmb0OcObO5A)
 
 
-## 4. [Hunt The Wumpus](sketches/HuntTheWumpus/)
+## 5. [Hunt The Wumpus](sketches/HuntTheWumpus/)
 * Author: @dmalec
 * URL: [https://github.com/dmalec/Hunt-The-Wumpus](https://github.com/dmalec/Hunt-The-Wumpus)
 * Youtube:
 
 
-## 5. [Jump](sketches/Jump/)
+## 6. [Jump](sketches/Jump/)
 * Author: Joshua Brooks
 * URL: [http://www.instructables.com/id/Arduino-LCD-Game/](http://www.instructables.com/id/Arduino-LCD-Game/)
 * Youtube:[https://www.youtube.com/watch?v=LVPSwgAacac](https://www.youtube.com/watch?v=LVPSwgAacac)
 
 
-## 6. [Number Flip-Flop](sketches/NumberFlipFlop/)
+## 7. [Number Flip-Flop](sketches/NumberFlipFlop/)
 * Author: Budd Churchward (@barnacleBudd)
 * URL: [http://mypetdigispark.blogspot.co.za/2013/02/lcd-game-set-up-number-flip-flop-intro.html](http://mypetdigispark.blogspot.co.za/2013/02/lcd-game-set-up-number-flip-flop-intro.html)
 * Youtube: [https://www.youtube.com/watch?v=SqxVIVnzkR0](https://www.youtube.com/watch?v=SqxVIVnzkR0)
@@ -49,61 +59,61 @@ In the text below, I will highlight the digits that I want to flip. You will see
 ![Numbers](images/numbers.png?raw=true "Numbers")
 
 
-## 7. [Pac-Man](sketches/Pacman/)
+## 8. [Pac-Man](sketches/Pacman/)
 * Author: Jean Malha
 * URL: [http://forum.snootlab.com/viewtopic.php?f=34&t=207](http://forum.snootlab.com/viewtopic.php?f=34&t=207)
 * Youtube: 
 
 
-## 8. [PACMAN RIDER!](sketches/PacmanRider/)
+## 9. [PACMAN RIDER!](sketches/PacmanRider/)
 * Author: Micky Griffiths
 * URL:
 * Youtube: [https://www.youtube.com/watch?v=JapKr4s1tVY](https://www.youtube.com/watch?v=JapKr4s1tVY)
 
 
-## 9. [Poseur Blocks](sketches/PoseurBlocks/)
+## 10. [Poseur Blocks](sketches/PoseurBlocks/)
 * Author: Alex Zen (@alexzen)
 * URL: [https://github.com/alzkun/poseur-blocks](https://github.com/alzkun/poseur-blocks)
 * Youtube: [https://www.youtube.com/watch?v=tZByxIPXiag](https://www.youtube.com/watch?v=tZByxIPXiag)
 
 
-## 10. [Snake](sketches/Snake/) 
+## 11. [Snake](sketches/Snake/) 
 * Author: @boti12bot
 * URL: [https://www.youtube.com/watch?v=IkTK6WMlMs4](https://www.youtube.com/watch?v=IkTK6WMlMs4)
 * Youtube: [https://www.youtube.com/watch?v=IkTK6WMlMs4](https://www.youtube.com/watch?v=IkTK6WMlMs4)
 
 
-## 11. [Tetris](sketches/Tetris/)
+## 12. [Tetris](sketches/Tetris/)
 * Author: @Numeric
 * URL: [https://hackaday.io/project/10761-tetris-on-arduino-lcd](https://hackaday.io/project/10761-tetris-on-arduino-lcd)
 * Youtube: [https://www.youtube.com/watch?v=YTdxdu47js0](https://www.youtube.com/watch?v=YTdxdu47js0)
 
 
-## 12. [The Lonely Cottage](sketches/Cottage/)
+## 13. [The Lonely Cottage](sketches/Cottage/)
 * Author: Wayne Jones (@WarmCat)
 * URL: [http://www.instructables.com/id/Text-Based-Multi-Choice-Adventure-Game/](http://www.instructables.com/id/Text-Based-Multi-Choice-Adventure-Game/)
 * Youtube: [https://www.youtube.com/watch?v=H70bLuWkbx4](https://www.youtube.com/watch?v=H70bLuWkbx4)
 
 
-## 13. [Tromino](sketches/Tromino/)
+## 14. [Tromino](sketches/Tromino/)
 * Author: Johannes le Roux (@dadecoza)
 * URL: 
 * Youtube: [https://youtu.be/O69huEK0YT4?t=448](https://youtu.be/O69huEK0YT4)
 
 
-## 14. [Truck Lane](sketches/TruckLane/)
+## 15. [Truck Lane](sketches/TruckLane/)
 * Author: @TheRealDod
 * URL: [http://www.instructables.com/id/Truck-Lane-a-16x2-LCD-Arduino-game/](http://www.instructables.com/id/Truck-Lane-a-16x2-LCD-Arduino-game/)
 * Youtube: [https://www.youtube.com/watch?v=N4ZchEWr8_s](https://www.youtube.com/watch?v=N4ZchEWr8_s)
 
 
-## 15. [Vroum!](sketches/Vroum/)
+## 16. [Vroum!](sketches/Vroum/)
 * Author: Pierre Massat
 * URL:  [https://guitarextended.wordpress.com/2013/01/19/sketch-of-the-arduino-lcd-video-game-voitures/](https://guitarextended.wordpress.com/2013/01/19/sketch-of-the-arduino-lcd-video-game-voitures/)
 * Youtube: [https://www.youtube.com/watch?v=-sYp-wQ_Rtg](https://www.youtube.com/watch?v=-sYp-wQ_Rtg)
 
 
-## 16. [Zombie](sketches/Zombie/)
+## 17. [Zombie](sketches/Zombie/)
 * Author:  Markus Ulfberg
 * URL:  [http://genericnerd.blogspot.co.za/2010/01/arduino-game-zombie-showdown.html](http://genericnerd.blogspot.co.za/2010/01/arduino-game-zombie-showdown.html)
 * Youtube: [https://www.youtube.com/watch?v=bYbsQDPGdj8](https://www.youtube.com/watch?v=bYbsQDPGdj8)
